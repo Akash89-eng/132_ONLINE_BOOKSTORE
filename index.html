@@ -20,6 +20,14 @@
     .in-stock { background-color: #c6f6d5; color: #22543d; }
     .low-stock { background-color: #feebc8; color: #744210; }
     .out-stock { background-color: #fed7d7; color: #742a2a; }
+    .thank-you-banner { 
+      background-color: #ebf8ff; 
+      border: 2px dashed #3182ce; 
+      padding: 20px; 
+      border-radius: 8px; 
+      margin-top: 30px; 
+      text-align: center; 
+    }
   </style>
 </head>
 <body>
@@ -30,7 +38,7 @@
 
   <div class="container">
     <div class="books-grid">
-      <!-- Book 1 -->
+      <!-- Bok 1 -->
       <div class="card">
         <span class="category">Computer Science</span>
         <div class="title">Clean Code</div>
@@ -41,7 +49,7 @@
         </div>
       </div>
 
-      <!-- Book 2 -->
+      <!-- Bok 2 -->
       <div class="card">
         <span class="category">Software Architecture</span>
         <div class="title">Design Patterns (GoF)</div>
@@ -52,7 +60,7 @@
         </div>
       </div>
 
-      <!-- Book 3 -->
+      <!-- Bok 3 -->
       <div class="card">
         <span class="category">DevOps & Cloud</span>
         <div class="title">The Phoenix Project</div>
@@ -63,7 +71,7 @@
         </div>
       </div>
 
-      <!-- Book 4 -->
+      <!-- Bok 4 -->
       <div class="card">
         <span class="category">Algorithms</span>
         <div class="title">Introduction to Algorithms</div>
@@ -74,7 +82,7 @@
         </div>
       </div>
 
-      <!-- Book 5 -->
+      <!-- Bok 5 -->
       <div class="card">
         <span class="category">Distributed Systems</span>
         <div class="title">Designing Data-Intensive Apps</div>
@@ -85,7 +93,7 @@
         </div>
       </div>
 
-      <!-- Book 6 -->
+      <!-- Bok 6 -->
       <div class="card">
         <span class="category">Cybersecurity</span>
         <div class="title">The Web Application Hacker's Handbook</div>
@@ -95,6 +103,12 @@
           <span class="badge out-stock">Out of Stock</span>
         </div>
       </div>
+    </div>
+
+    <!-- Ny funksjon: Takkemelding plassert utenfor bøkene i full bredde -->
+    <div class="thank-you-banner">
+      <h3 style="color: #2b6cb0;">Thank You for Shopping with Us!</h3>
+      <p style="margin-top: 5px; color: #4a5568;">All academic textbook orders include free campus delivery within 24 hours.</p>
     </div>
   </div>
 </body>
